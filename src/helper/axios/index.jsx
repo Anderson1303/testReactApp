@@ -4,10 +4,8 @@ import axios from 'axios';
   function(config) {
     config.headers = ``;
     return config
-  }, 
-  function(error) {
-    return Promise.reject(error);
-  },function(data){
+  },
+  function(data){
     return Promise.resolve(data);
   }
 );
