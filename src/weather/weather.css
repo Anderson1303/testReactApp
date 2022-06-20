@@ -2,3 +2,9 @@
     color: #ffffff;
     padding-right: 20px;
 }
+
+.layout-content {
+    margin: 24px 16px;
+    padding: 24;
+    min-height: 280;
+}

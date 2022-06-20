@@ -68,12 +68,7 @@ const App = () => {
 
         return <Layout className="site-layout">
             <Content
-            className="site-layout-background"
-            style={{
-                margin: '24px 16px',
-                padding: 24,
-                minHeight: 280,
-            }}
+            className="site-layout-background layout-content"
             >
             <div>Latitude {locationUser.lat} - Longitude {locationUser.lng}</div>
             <div>Humidade: {humidity}</div>
